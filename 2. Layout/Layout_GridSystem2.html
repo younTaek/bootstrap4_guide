@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="customStyle.css">
+  <title>Layout_GridSystem2</title>
+</head>
+
+<body class="mt-5">
+  <div class="container">
+    <h1 class="text-center p-4">Grid option</h1>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="text-center">
+            Extra small<br>
+            <small>&lt;576px</small>
+          </th>
+          <th class="text-center">
+            Small<br>
+            <small>≥576px</small>
+          </th>
+          <th class="text-center">
+            Medium<br>
+            <small>≥768px</small>
+          </th>
+          <th class="text-center">
+            Large<br>
+            <small>≥992px</small>
+          </th>
+          <th class="text-center">
+            Extra large<br>
+            <small>≥1200px</small>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="text-nowrap" scope="row">Max container width</th>
+          <td>None (auto)</td>
+          <td>540px</td>
+          <td>720px</td>
+          <td>960px</td>
+          <td>1140px</td>
+        </tr>
+        <tr>
+          <th class="text-nowrap" scope="row">Class prefix</th>
+          <td><code>.col-</code></td>
+          <td><code>.col-sm-</code></td>
+          <td><code>.col-md-</code></td>
+          <td><code>.col-lg-</code></td>
+          <td><code>.col-xl-</code></td>
+        </tr>
+        <tr>
+          <th class="text-nowrap" scope="row"># of columns</th>
+          <td colspan="5">12</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-3 d-flex justify-content-around align-items-center">
+        <div class="remark smDiv">
+        </div>
+        <span class="remarkSpan">col-sm</span>
+      </div>
+      <div class="col-3 d-flex justify-content-around align-items-center">
+        <div class="remark mdDiv">
+        </div>
+        <span class="remarkSpan">col-md</span>
+      </div>
+      <div class="col-3 d-flex justify-content-around align-items-center">
+        <div class="remark lgDiv">
+        </div>
+        <span class="remarkSpan">col-lg</span>
+      </div>
+      <div class="col-3 d-flex justify-content-around align-items-center">
+        <div class="remark xlDiv">
+        </div>
+        <span class="remarkSpan">col-xl</span>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="customStyle row my-3 mb-5">
+      <!-- 
+        Indicates the width of the number of columns entered among the 12 columns when the device size is greater than 576px.
+        col-sm-*  :: 디바이스 크기가 576px 이상일때 12개의 컬럼 중 입력한 컬럼의 수의 너비를 나타냅니다.
+
+        col-md-*  :: 디바이스 크기가 720px 이상일때 12개의 컬럼 중 입력한 컬럼의 수의 너비를 나타냅니다.
+
+        col-lg-*  :: 디바이스 크기가 960px 이상일때 12개의 컬럼 중 입력한 컬럼의 수의 너비를 나타냅니다.
+
+        col-xl-*  :: 디바이스 크기가 1140px 이상일때 12개의 컬럼 중 입력한 컬럼의 수의 너비를 나타냅니다.
+       -->
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-6 border border-primary">
+        col-sm-12 col-md-6 col-lg-4 col-xl-6
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-6 border border-secondary">
+        col-sm-12 col-md-6 col-lg-4 col-xl-6
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-6 border border-success">
+        col-sm-12 col-md-6 col-lg-4 col-xl-6
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

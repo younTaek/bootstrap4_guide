@@ -1,0 +1,67 @@
+.remark{
+    width:3rem;
+    height:3rem;
+}
+.smDiv{
+    background-color: rgba(255, 46, 46, 0.8);
+}
+.mdDiv{
+    background-color: rgba(255, 193, 117, 0.8);
+}
+.lgDiv{
+    background-color: rgba(92, 75, 243,  0.8);
+}
+.xlDiv{
+    background-color: rgba(47, 241, 134, 0.8);
+}
+.remarkSpan{
+    font-size: 0.8rem;
+}
+
+.customStyle.row{
+    min-height: 3rem;
+}
+
+.customStyle.row > div{
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid  rgba(41, 97, 250, 0.2);
+}
+
+
+@media (min-width: 576px){
+    html{
+        font-size: 13px;
+    }
+    .customStyle.row > div{
+        background-color: rgba(255, 46, 46, 0.8);
+    }
+}
+
+@media (min-width: 768px){
+    html{
+        font-size: 16px;
+    }
+    .customStyle.row > div{
+        background-color: rgba(255, 193, 117, 0.8);
+    }
+}
+@media (min-width: 992px){
+    html{
+        font-size: 19px;
+    }
+    .customStyle.row > div{
+        background-color: rgba(92, 75, 243,  0.8);
+    }
+}
+
+@media (min-width: 1140px){
+    html{
+        font-size: 22px;
+    }
+    .customStyle.row > div{
+        background-color: rgba(47, 241, 134, 0.8);
+    }
+}
